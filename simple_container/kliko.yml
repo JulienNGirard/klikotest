@@ -1,0 +1,28 @@
+schema_version: 2
+name: julien
+description: julien test image
+container: radioastro/julian_container
+author: Gijs Molenaar
+email: gijsmolenaar@gmail.com
+url: http://github.com/gijzelaerr/kliko
+io: split
+
+sections:
+  -
+    name: section1
+    description: The first section
+    fields:
+      -
+        name: fits_files
+        label: fits matching string
+        type: char
+        required: True
+        initial: "*.fits"
+      -
+        name: factor
+        label: factor
+        help_text: the number that is used for the devision
+        type: float
+        required: True
+        initial: 10
+   
