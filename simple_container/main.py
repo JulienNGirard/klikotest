@@ -27,4 +27,4 @@ def so_something_on_folder(input_, output_, factor, pattern):
 
 
 if __name__ == '__main__':
-    so_something_on_folder(datafolder, targetfolder, factor=10, pattern='*.fits')
+    so_something_on_folder(datafolder, targetfolder, factor=1, pattern='*.fits')

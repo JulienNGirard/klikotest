@@ -13,7 +13,7 @@ sections:
     description: The first section
     fields:
       -
-        name: fits_files
+        name: pattern
         label: fits matching string
         type: char
         required: True
@@ -24,5 +24,5 @@ sections:
         help_text: the number that is used for the devision
         type: float
         required: True
-        initial: 10
+        initial: 1
    

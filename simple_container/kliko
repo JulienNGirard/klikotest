@@ -5,12 +5,13 @@ from kliko.validate import validate
 from main import so_something_on_folder
 
 parameters = validate()
+locals().update(parameters)
 
 print("the parameters: " + str(parameters))
 
 print("content of /input: " + str(os.listdir('/input')))
 
 
-so_something_on_folder('/input', '/output',factor=20,pattern='*.fits')
+so_something_on_folder('/input', '/output',factor,pattern)
 
 
