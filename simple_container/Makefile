@@ -1,10 +1,10 @@
 DOCKER_REPO=radioastro/julien
 
 
-.PHONY: build clean run 
+.PHONY: build clean 
 
 
-all: build run upload
+all: build 
 
 
 build:

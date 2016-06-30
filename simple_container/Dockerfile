@@ -1,4 +1,4 @@
-FROM radioastro/casa:4.6
+FROM radioastro/base:0.2
 
 
 RUN apt-get update && \
